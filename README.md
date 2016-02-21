@@ -118,7 +118,7 @@ Create a test database.
 
 ```bash
 sudo su - postgres
-createdb test
+createdb --encoding=SQL_ASCII --lc-collate=C --lc-ctype=C --template=template0 test
 ```
 Install the db functions used by transcoder.
 
