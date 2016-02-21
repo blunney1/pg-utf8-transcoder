@@ -71,7 +71,7 @@ make && sudo make install
 You can also simply install the required packages, but the transcoder was built and tested using ICU 54.1:
 
 ```bash
-sudo apt-get -y apt-get install libicu42 libicu-dev libicu42-dbg
+sudo apt-get -y install libicu42 libicu-dev libicu42-dbg
 ```
 
 #### Build db-utf8-transcode executable
